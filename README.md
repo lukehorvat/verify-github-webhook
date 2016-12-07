@@ -12,4 +12,14 @@ $ npm install verify-github-webhook
 
 ## Usage
 
-TODO.
+Example:
+
+```js
+import verifyGithubWebhook from "verify-github-webhook";
+
+let signature = "sha1=9060bd6ce771054d94628879bb47095ec2572c86";
+let payload = JSON.stringify({ hello: "world" });
+let secret = "secret";
+
+verifyGithubWebhook(signature, payload, secret); // Returns true/false.
+```
