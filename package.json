@@ -1,7 +1,7 @@
 {
   "name": "verify-github-webhook",
   "version": "0.0.0",
-  "description": "TODO.",
+  "description": "Safely verify that a received webhook originated from GitHub.",
   "author": "Luke Horvat",
   "license": "MIT",
   "repository": "lukehorvat/verify-github-webhook",
