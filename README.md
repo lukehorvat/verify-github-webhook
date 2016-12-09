@@ -2,6 +2,8 @@
 
 Safely verify that a received webhook originated from GitHub.
 
+Uses [crypto.timingSafeEqual()](https://nodejs.org/api/crypto.html#crypto_crypto_timingsafeequal_a_b), so Node.js v6.6.0 (or newer) is required.
+
 ## Installation
 
 Install the package with NPM:
