@@ -23,5 +23,5 @@ let signature = "sha1=9060bd6ce771054d94628879bb47095ec2572c86";
 let payload = JSON.stringify({ hello: "world" });
 let secret = "secret";
 
-verifyGithubWebhook(signature, payload, secret); // Returns true/false.
+verifyGithubWebhook(signature, payload, secret); // Returns true if verification succeeds; otherwise, false.
 ```
