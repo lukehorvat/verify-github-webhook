@@ -25,3 +25,7 @@ let secret = "secret";
 
 verifyGithubWebhook(signature, payload, secret); // Returns true if verification succeeds; otherwise, false.
 ```
+
+## Related
+
+You may also be interested in [verify-trello-webhook](https://github.com/lukehorvat/verify-trello-webhook), a similar package for Trello webhook verification.
